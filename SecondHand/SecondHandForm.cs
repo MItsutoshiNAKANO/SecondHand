@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SecondHand
 {
-    public partial class Form1 : Form
+    public partial class SecondHandForm : Form
     {
-        public Form1()
+        public SecondHandForm()
         {
             InitializeComponent();
+        }
+
+        private void IntervalTimer_Tick(object sender, EventArgs e)
+        {
+            ViewTextBox.Text = DateTime.Now.ToString("yyyy-MM-dd ddd HH:mm:ss.f");
         }
     }
 }
