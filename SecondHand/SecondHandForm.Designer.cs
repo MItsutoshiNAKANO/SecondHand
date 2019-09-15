@@ -39,21 +39,20 @@
             this.ViewTextBox.Location = new System.Drawing.Point(0, 0);
             this.ViewTextBox.Name = "ViewTextBox";
             this.ViewTextBox.ReadOnly = true;
-            this.ViewTextBox.Size = new System.Drawing.Size(139, 19);
+            this.ViewTextBox.Size = new System.Drawing.Size(131, 19);
             this.ViewTextBox.TabIndex = 0;
-            this.ViewTextBox.Text = "2019/09/15 日 15:32:40.0";
+            this.ViewTextBox.Text = "2019-09-15 日 15:32:40";
             // 
             // IntervalTimer
             // 
             this.IntervalTimer.Enabled = true;
-            this.IntervalTimer.Interval = 25;
             this.IntervalTimer.Tick += new System.EventHandler(this.IntervalTimer_Tick);
             // 
             // SecondHandForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(139, 20);
+            this.ClientSize = new System.Drawing.Size(131, 20);
             this.Controls.Add(this.ViewTextBox);
             this.Name = "SecondHandForm";
             this.Text = "SecondHand";

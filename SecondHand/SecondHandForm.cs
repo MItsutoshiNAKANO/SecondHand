@@ -19,7 +19,7 @@ namespace SecondHand
 
         private void IntervalTimer_Tick(object sender, EventArgs e)
         {
-            ViewTextBox.Text = DateTime.Now.ToString("yyyy-MM-dd ddd HH:mm:ss.f");
+            ViewTextBox.Text = DateTime.Now.ToString("yyyy-MM-dd ddd HH:mm:ss");
         }
     }
 }
